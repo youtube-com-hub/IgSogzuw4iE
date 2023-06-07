@@ -1,0 +1,218 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	font-family: 'Google Sans','Noto Sans Myanmar UI', arial, sans-serif;
+}
+
+
+.google-logo {
+	display: flex;
+	justify-content: center;
+	padding-top: 24px;
+}
+
+
+.box h2 {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 0px;
+	padding-top: 16px;
+	color: #202124;
+	font-size: 24px;
+	font-family: 'Google Sans','Noto Sans Myanmar UI', arial, sans-serif;
+	font-weight: lighter;
+	line-height: 1.3333;
+	margin-bottom: 0;
+	margin-top: 0;
+	word-break: break-word;
+}
+
+
+p {
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.1px;
+	line-height: 1.5;
+	padding-bottom: 1px;
+	margin-top: 7px;
+}
+
+.box .inputBoxemail {
+	position: relative;
+}
+
+.box .inputBoxpass {
+	position: relative;
+}
+
+.box .inputBoxemail input {
+	width: 83%;
+	padding: 1.125rem 10px;
+	margin-top: 16px;
+	font-size: 1rem;
+	letter-spacing: 0.062rem;
+	margin-bottom: 1.875rem;
+	margin-left: 1.5rem;
+	border: 1px solid #ccc;
+	background: transparent;
+	border-radius: 4px;
+}
+
+.box .inputBoxpass input {
+	width: 83%;
+	padding: 1.125rem 10px;
+	margin-top: 16px;
+	font-size: 1rem;
+	letter-spacing: 0.062rem;
+	margin-bottom: 1.875rem;
+	margin-left: 1.5rem;
+	border: 1px solid #ccc;
+	background: transparent;
+	border-radius: 4px;
+}
+
+.box .inputBoxemail label {
+	position: absolute;
+	top: 25px;
+	left: 40px;
+	padding: 0.625rem 0;
+	font-size: 1rem;
+	color: #939393;
+	pointer-events: none;
+	transition: 0.3s;
+}
+
+.box .inputBoxpass label {
+	position: absolute;
+	top: 25px;
+	left: 40px;
+	padding: 0.625rem 0;
+	font-size: 1rem;
+	color: #939393;
+	pointer-events: none;
+	transition: 0.3s;
+}
+
+.forgot-email {
+	margin-top: -20px;
+}
+
+.forgot-email button {
+	border-radius: 4px;
+	color: #1a73e8;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: .3px;
+	outline: 0;
+	position: relative;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+	margin-left: 1.5rem;
+	text-align: left;
+	border: 0;
+}
+
+.next {
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #1a73e8;
+	padding: 0.625rem 1.25rem;
+	cursor: pointer;
+	border-radius: 0.312rem;
+	font-size: 1rem;
+	float: right;
+	margin-right: 1.5rem;
+	margin-top: 8rem;
+}
+
+.next:hover {
+	background-color: #287ae6;
+}
+
+.box .inputBoxemail input:focus ~ label,
+.box .inputBoxemail input:valid ~ label,
+.box .inputBoxemail input:not([value=""]) ~ label {
+	top: -0.5rem;
+	left: 10px;
+	color: #1a73e8;
+	font-size: .75rem;
+	background-color: #fff;
+	height: 10px;
+	padding: 0 5px;
+}
+
+.box .inputBoxpass input:focus ~ label,
+.box .inputBoxpass input:valid ~ label,
+.box .inputBoxpass input:not([value=""]) ~ label {
+	top: -0.5rem;
+	left: 10px;
+	color: #1a73e8;
+	font-size: .75rem;
+	background-color: #fff;
+	height: 10px;
+	padding: 0 5px;
+}
+
+.box .inputBoxemail input:focus {
+	outline: none;
+	border: 2px solid #1a73e8;
+}
+
+.box .inputBoxpass input:focus {
+	outline: none;
+	border: 2px solid #1a73e8;
+}
+
+.prevent {
+	text-align: left;
+	color: #939393;
+	padding: 0.625rem 1.5rem;
+	line-height: 1.4286;
+	font-size: 14px;
+	margin-top: 32px;
+	width: 83%;
+	white-space: nowrap;
+}
+
+.prevent a {
+	text-decoration: none;
+	color: #1a73e8;
+	font-weight: bold;
+}
+
+.new {
+	position: absolute;
+	border: none;
+	outline: none;
+	color: #1a73e8;
+	background-color: transparent;
+	padding: 0.625rem 1.55rem;
+	cursor: pointer;
+	border-radius: 0.312rem;
+	font-size: 1rem;
+	float: left;
+	padding-top: 9rem;
+}
+
+.new2 {
+	text-decoration: none;
+	
+}
+
+.view {
+	position: absolute;
+	margin-top: -1rem;
+	margin-left: 1.5rem;
+}
+
+.mdp {
+	position: absolute;
+	margin-top: -1.1rem;
+	margin-left: 3rem;
+}
